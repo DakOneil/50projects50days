@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.title h1, .title h3 {
+    margin: 5px;
+}
+
+.cup {
+    background-color: aliceblue;
+    color: rgba(20,66,140, 0.8);
+    text-shadow: 0 0 1px blue;
+    /* padding: 5px; */
+    margin: 5px;
+    border: 2px rgba(20,66,140, 0.8) solid;
+    border-radius: 0 0 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 200px;
+}
+
+.large {
+    height: 300px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.cups {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+}
+
+.small {
+    height: 95px;
+    width: 50px;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.small.full {
+    background-color: rgb(140,200,255);
+    color: white;
+}
+
+.remained {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+.remained span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.remained small {
+    font-size: 18px;
+    background-color: aliceblue;
+}
+
+.percentage {
+    background-color: rgb(140,200,255);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 0;
+    width: 100%;
+    transition: 0.3s ease;
+    border-radius: 0 0 25px 25px;
+}
+
+.text {
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.finished {
+    font-size: 30px;
+    font-weight: bolder;
+    color: gold;
+    text-shadow: goldenrod;
+}
+
+.hidden {
+    display: none;
+}
