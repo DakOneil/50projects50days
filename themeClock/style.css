@@ -101,10 +101,11 @@ body {
     width: 10px;
     height: 10px;
     position: absolute;
-    top: 50%;
+    top: 48%; /*cannot get the center point properly centered from the hands any other way yet*/
     left: 50%;
     transform: translate(-50%);
     border-radius: 50%;
+    border: 6px solid var(--primary-color);
 }
 
 .center-point::after {
