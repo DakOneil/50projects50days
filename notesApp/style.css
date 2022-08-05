@@ -23,7 +23,7 @@ body {
     background-color: #9ec862;
     border: none;
     border-radius: 3px;
-    padding 0.5rem 1rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
@@ -58,6 +58,10 @@ body {
     border: none;
     height: 400px;
     width: 100%;
+    padding: 20px;
+}
+
+.main {
     padding: 20px;
 }
 
