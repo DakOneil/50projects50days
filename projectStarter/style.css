@@ -14,3 +14,11 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.projectHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
